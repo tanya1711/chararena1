@@ -1,8 +1,8 @@
 # use a node base image
-FROM node:7-onbuild
+FROM scratch
 
 # set maintainer
-LABEL maintainer "crudsinfotechng@gmail.com"
+LABEL maintainer "goyantanya17@gmail.com"
 
 # set a health check
 HEALTHCHECK --interval=5s \
